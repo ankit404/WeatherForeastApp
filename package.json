@@ -19,6 +19,8 @@
         "web-vitals": "^2.1.4"
     },
     "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "start": "react-scripts --openssl-legacy-provider start",
         "build": "react-scripts --openssl-legacy-provider build",
         "test": "react-scripts test",
@@ -46,6 +48,7 @@
         "assert": "^2.0.0",
         "buffer": "^6.0.3",
         "crypto-browserify": "^3.12.0",
+        "gh-pages": "^5.0.0",
         "https-browserify": "^1.0.0",
         "os-browserify": "^0.3.0",
         "process": "^0.11.10",
