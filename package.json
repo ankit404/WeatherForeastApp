@@ -1,6 +1,6 @@
 {
     "name": "weather-app",
-    "homepage": "https://ankit404.github.io/WeatherForeastApp",
+    "homepage": "https://ankit404.github.io/WeatherForecastApp",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
